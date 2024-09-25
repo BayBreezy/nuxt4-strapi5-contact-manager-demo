@@ -1,0 +1,54 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "ui:add": "npx --yes ui-thing@latest add"
+  },
+  "dependencies": {
+    "@iconify/vue": "^4.1.2",
+    "@morev/vue-transitions": "^3.0.2",
+    "@nuxtjs/strapi": "^1.12.0",
+    "@pinia/nuxt": "^0.5.4",
+    "@vee-validate/nuxt": "^4.13.2",
+    "@vee-validate/yup": "^4.13.2",
+    "@vueform/multiselect": "^2.6.10",
+    "datatables.net-buttons-dt": "^3.1.2",
+    "datatables.net-responsive-dt": "^3.0.3",
+    "datatables.net-searchbuilder-dt": "^1.8.0",
+    "datatables.net-select-dt": "^2.1.0",
+    "datatables.net-vue3": "^3.0.2",
+    "jszip": "^3.10.1",
+    "nuxt": "^3.13.2",
+    "pinia": "^2.2.2",
+    "radix-vue": "^1.9.6",
+    "tailwind-variants": "^0.2.1",
+    "v-wave": "^3.0.2",
+    "vue": "latest",
+    "vue-router": "latest",
+    "vue-sonner": "^1.2.1",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.2",
+    "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
+    "@nuxt/icon": "^1.5.1",
+    "@nuxtjs/color-mode": "^3.5.1",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@tailwindcss/forms": "^0.5.9",
+    "@vueuse/core": "^11.1.0",
+    "@vueuse/nuxt": "^11.1.0",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.8",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.6.2"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}
